@@ -11,7 +11,7 @@ from erpnext.stock.utils import get_stock_balance
 
 @frappe.whitelist()
 def get_items(
-	item_group, posting_date, posting_time, company, ignore_empty_stock=False
+    item_group, posting_date, posting_time, company, ignore_empty_stock=False
 ):
     bin = frappe.qb.DocType("Bin")
     item = frappe.qb.DocType("Item")
@@ -79,4 +79,4 @@ def get_items(
 
                     res.append(args)
 
-	return res
+    return res
