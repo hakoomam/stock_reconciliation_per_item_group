@@ -10,4 +10,4 @@ Release: v1.0.0
 - Ensured clean installation and runtime compatibility with Frappe/ERPNext v15
 
 Author: Miyanda Hakooma
-Maintainer: technique@Miyanda Hakooma
+Maintainer: mh@antares.co.zm

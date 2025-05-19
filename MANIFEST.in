@@ -4,15 +4,15 @@ include *.json
 include *.md
 include *.py
 include *.txt
-recursive-include stock_reconcialiation_per_item_group *.css
-recursive-include stock_reconcialiation_per_item_group *.csv
-recursive-include stock_reconcialiation_per_item_group *.html
-recursive-include stock_reconcialiation_per_item_group *.ico
-recursive-include stock_reconcialiation_per_item_group *.js
-recursive-include stock_reconcialiation_per_item_group *.json
-recursive-include stock_reconcialiation_per_item_group *.md
-recursive-include stock_reconcialiation_per_item_group *.png
-recursive-include stock_reconcialiation_per_item_group *.py
-recursive-include stock_reconcialiation_per_item_group *.svg
-recursive-include stock_reconcialiation_per_item_group *.txt
-recursive-exclude stock_reconcialiation_per_item_group *.pyc
+recursive-include stock_reconciliation_per_item_group *.css
+recursive-include stock_reconciliation_per_item_group *.csv
+recursive-include stock_reconciliation_per_item_group *.html
+recursive-include stock_reconciliation_per_item_group *.ico
+recursive-include stock_reconciliation_per_item_group *.js
+recursive-include stock_reconciliation_per_item_group *.json
+recursive-include stock_reconciliation_per_item_group *.md
+recursive-include stock_reconciliation_per_item_group *.png
+recursive-include stock_reconciliation_per_item_group *.py
+recursive-include stock_reconciliation_per_item_group *.svg
+recursive-include stock_reconciliation_per_item_group *.txt
+recursive-exclude stock_reconciliation_per_item_group *.pyc

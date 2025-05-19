@@ -1,7 +1,7 @@
 from . import __version__ as app_version
 
-app_name = "stock_reconcialiation_per_item_group"
-app_title = "Stock Reconcialiation Per Item Group"
+app_name = "stock_reconciliation_per_item_group"
+app_title = "Stock reconciliation Per Item Group"
 app_publisher = "scopen.fr"
 app_description = "Add button to Stock Reconciliation to add product by Item Group"
 app_icon = "octicon octicon-file-directory"
@@ -13,15 +13,15 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/stock_reconcialiation_per_item_group/css/stock_reconcialiation_per_item_group.css"
-# app_include_js = "/assets/stock_reconcialiation_per_item_group/js/stock_reconcialiation_per_item_group.js"
+# app_include_css = "/assets/stock_reconciliation_per_item_group/css/stock_reconciliation_per_item_group.css"
+# app_include_js = "/assets/stock_reconciliation_per_item_group/js/stock_reconciliation_per_item_group.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/stock_reconcialiation_per_item_group/css/stock_reconcialiation_per_item_group.css"
-# web_include_js = "/assets/stock_reconcialiation_per_item_group/js/stock_reconcialiation_per_item_group.js"
+# web_include_css = "/assets/stock_reconciliation_per_item_group/css/stock_reconciliation_per_item_group.css"
+# web_include_js = "/assets/stock_reconciliation_per_item_group/js/stock_reconciliation_per_item_group.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "stock_reconcialiation_per_item_group/public/scss/website"
+# website_theme_scss = "stock_reconciliation_per_item_group/public/scss/website"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
@@ -56,20 +56,20 @@ app_license = "MIT"
 # Installation
 # ------------
 
-# before_install = "stock_reconcialiation_per_item_group.install.before_install"
-# after_install = "stock_reconcialiation_per_item_group.install.after_install"
+# before_install = "stock_reconciliation_per_item_group.install.before_install"
+# after_install = "stock_reconciliation_per_item_group.install.after_install"
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "stock_reconcialiation_per_item_group.uninstall.before_uninstall"
-# after_uninstall = "stock_reconcialiation_per_item_group.uninstall.after_uninstall"
+# before_uninstall = "stock_reconciliation_per_item_group.uninstall.before_uninstall"
+# after_uninstall = "stock_reconciliation_per_item_group.uninstall.after_uninstall"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "stock_reconcialiation_per_item_group.notifications.get_notification_config"
+# notification_config = "stock_reconciliation_per_item_group.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -108,39 +108,39 @@ app_license = "MIT"
 
 # scheduler_events = {
 #	"all": [
-#		"stock_reconcialiation_per_item_group.tasks.all"
+#		"stock_reconciliation_per_item_group.tasks.all"
 #	],
 #	"daily": [
-#		"stock_reconcialiation_per_item_group.tasks.daily"
+#		"stock_reconciliation_per_item_group.tasks.daily"
 #	],
 #	"hourly": [
-#		"stock_reconcialiation_per_item_group.tasks.hourly"
+#		"stock_reconciliation_per_item_group.tasks.hourly"
 #	],
 #	"weekly": [
-#		"stock_reconcialiation_per_item_group.tasks.weekly"
+#		"stock_reconciliation_per_item_group.tasks.weekly"
 #	]
 #	"monthly": [
-#		"stock_reconcialiation_per_item_group.tasks.monthly"
+#		"stock_reconciliation_per_item_group.tasks.monthly"
 #	]
 # }
 
 # Testing
 # -------
 
-# before_tests = "stock_reconcialiation_per_item_group.install.before_tests"
+# before_tests = "stock_reconciliation_per_item_group.install.before_tests"
 
 # Overriding Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-#	"frappe.desk.doctype.event.event.get_events": "stock_reconcialiation_per_item_group.event.get_events"
+#	"frappe.desk.doctype.event.event.get_events": "stock_reconciliation_per_item_group.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-#	"Task": "stock_reconcialiation_per_item_group.task.get_dashboard_data"
+#	"Task": "stock_reconciliation_per_item_group.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -176,6 +176,6 @@ user_data_fields = [
 # --------------------------------
 
 # auth_hooks = [
-#	"stock_reconcialiation_per_item_group.auth.validate"
+#	"stock_reconciliation_per_item_group.auth.validate"
 # ]
 
